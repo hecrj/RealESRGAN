@@ -4,7 +4,7 @@ A fork of [`Real-ESRGAN`](https://github.com/ai-forever/Real-ESRGAN). Used in so
 
 This fork mainly removes the `huggingface-hub` dependency, for now.
 
-Also, additional models (like `4x-Ultrasharp`) have been converted and are available in [the HuggingFace repository](https://huggingface.co/hecrj/RealESRGAN).
+Also, additional models (like `4x-Ultrasharp`) have been converted and are available in [the HuggingFace repository](https://huggingface.co/hecrj/RealESRGAN/tree/main).
 
 ### Installation
 
@@ -31,4 +31,4 @@ output = model.predict(image)
 output.save('output.png')
 ```
 
-Download the models you want to use from [HuggingFace](https://huggingface.co/hecrj/RealESRGAN).
+Download the models you want to use from [HuggingFace](https://huggingface.co/hecrj/RealESRGAN/tree/main).
